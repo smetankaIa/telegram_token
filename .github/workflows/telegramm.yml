@@ -13,7 +13,7 @@ jobs:
           token: ${{ secrets.TELEGRAM_TOKEN }}
           photo: https://steamuserimages-a.akamaihd.net/ugc/2145461285227603323/2785ACEDC8B16E865D78794DCE28B5A56D2AB937/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false
           location: '55.06904 82.90881'
-          venue: '35.661777 139.704051 竹北體育館 新竹縣竹北市'
+          venue: '55.06904 82.90881 ШАРАГА'
           message: |
             Этот пёс ${{ github.actor }} создал commit:
             ${{ github.event.commits[0].message }}
