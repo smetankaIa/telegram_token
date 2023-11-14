@@ -11,7 +11,7 @@ jobs:
         with:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
-          photo: https://steamuserimages-a.akamaihd.net/ugc/2145461285227603323/2785ACEDC8B16E865D78794DCE28B5A56D2AB937/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false
+          photo: workflows/lp_image.jpeg
           location: '55.06904 82.90881'
           venue: '55.06904 82.90881 ШАРАГА'
           message: |
